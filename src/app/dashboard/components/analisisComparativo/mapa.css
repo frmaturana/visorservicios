@@ -1,0 +1,7 @@
+/* Estilo para los nombres de las ciudades */
+.city-label {
+    font-size: 300px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold; /* Opcional: si deseas que el texto sea más destacado */
+    color: #000; /* Opcional: ajusta el color del texto */
+    z-index: 9000; /* Asegura que los nombres de las ciudades estén en la parte superior */
+  }

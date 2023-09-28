@@ -1,0 +1,25 @@
+.headFuction {
+    background: linear-gradient(180deg, #556363 0%, #696961 51.43%, #634F4E 100%);
+    max-width: 100%;
+}
+
+body{
+    background: #F5FAFA;
+}
+
+
+/* Estilos para el contenedor principal */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilos para la barra de desplazamiento en sí */
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del botón de desplazamiento */
+    border-radius: 5px; /* Borde redondeado del botón de desplazamiento */
+}
+
+/* Estilos para el fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo de la barra de desplazamiento */
+}

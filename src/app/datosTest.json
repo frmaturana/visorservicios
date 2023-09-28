@@ -1,0 +1,346 @@
+[
+    {
+     "CIUDAD": "CARAHUE",
+     "CAMAS HOSPITALARIAS": 30,
+     "CHILEXPRESS": 2,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "CUNCO",
+     "CAMAS HOSPITALARIAS": 24,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "FREIRE",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "GORBEA",
+     "CAMAS HOSPITALARIAS": 35,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LAUTARO",
+     "CAMAS HOSPITALARIAS": 72,
+     "CHILEXPRESS": 3,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LONCOCHE",
+     "CAMAS HOSPITALARIAS": 39,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "NUEVA IMPERIAL",
+     "CAMAS HOSPITALARIAS": 141,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 1,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "PITRUFQUEN",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "PUCON",
+     "CAMAS HOSPITALARIAS": 75,
+     "CHILEXPRESS": 4,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "VILLARRICA",
+     "CAMAS HOSPITALARIAS": 57,
+     "CHILEXPRESS": 2,
+     "INDAP": 1,
+     "SAG": 1,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "ANGOL",
+     "CAMAS HOSPITALARIAS": 234,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 1,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "COLLIPULLI",
+     "CAMAS HOSPITALARIAS": 29,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "CURACAUTIN",
+     "CAMAS HOSPITALARIAS": 24,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "PUREN",
+     "CAMAS HOSPITALARIAS": 28,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "RENAICO",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "TRAIGUEN",
+     "CAMAS HOSPITALARIAS": 81,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "VICTORIA",
+     "CAMAS HOSPITALARIAS": 179,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 1,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "VALDIVIA",
+     "CAMAS HOSPITALARIAS": 576,
+     "CHILEXPRESS": 11,
+     "INDAP": 1,
+     "SAG": 1,
+     "CAPREDENA": 1
+    },
+    {
+     "CIUDAD": "LANCO",
+     "CAMAS HOSPITALARIAS": 20,
+     "CHILEXPRESS": 2,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LOS LAGOS",
+     "CAMAS HOSPITALARIAS": 37,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "MARIQUINA",
+     "CAMAS HOSPITALARIAS": 52,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "PAILLACO",
+     "CAMAS HOSPITALARIAS": 39,
+     "CHILEXPRESS": 3,
+     "INDAP": 1,
+     "SAG": 1,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "PANGUIPULLI",
+     "CAMAS HOSPITALARIAS": 76,
+     "CHILEXPRESS": 2,
+     "INDAP": 1,
+     "SAG": 1,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LA UNION",
+     "CAMAS HOSPITALARIAS": 110,
+     "CHILEXPRESS": 3,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "FUTRONO",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 2,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "RIO BUENO",
+     "CAMAS HOSPITALARIAS": 63,
+     "CHILEXPRESS": 2,
+     "INDAP": 2,
+     "SAG": 2,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "VILCUN",
+     "CAMAS HOSPITALARIAS": 30,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "CURARREHUE",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "GALVARINO",
+     "CAMAS HOSPITALARIAS": 25,
+     "CHILEXPRESS": 0,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "MELIPEUCO",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "PERQUENCO",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "SAAVEDRA",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "TEODORO SCHMIDT",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "TOLTEN",
+     "CAMAS HOSPITALARIAS": 24,
+     "CHILEXPRESS": 0,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "CHOLCHOL",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "ERCILLA",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LONQUIMAY",
+     "CAMAS HOSPITALARIAS": 24,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LOS SAUCES",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 0,
+     "INDAP": 0,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LUMACO",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "CORRAL",
+     "CAMAS HOSPITALARIAS": 7,
+     "CHILEXPRESS": 1,
+     "INDAP": 0,
+     "SAG": 1,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "MAFIL",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "LAGO RANCO",
+     "CAMAS HOSPITALARIAS": 0,
+     "CHILEXPRESS": 1,
+     "INDAP": 1,
+     "SAG": 0,
+     "CAPREDENA": 0
+    },
+    {
+     "CIUDAD": "TEMUCO",
+     "CAMAS HOSPITALARIAS": 954,
+     "CHILEXPRESS": 13,
+     "INDAP": 3,
+     "SAG": 1,
+     "CAPREDENA": 1
+    }
+   ]

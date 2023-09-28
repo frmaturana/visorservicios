@@ -1,0 +1,135 @@
+.titulos-dashboard {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: #495057;
+}
+
+.analisisTerritorio {
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.analisis-boxs {
+  border-radius: 2px;
+  border: 2px solid #566464;
+}
+
+@media (max-width: 1200px) {
+  .analisis-big-box {
+    margin-right: 20px !important;
+  }
+}
+
+.titulo-grafico-radar {
+  font-family: "Open Sans";
+  font-size: "24px";
+  font-style: "normal";
+  font-weight: 600;
+  line-height: "32px";
+  color: "#495057";
+}
+
+.mapaDeServicios {
+  height: 100%;
+  width: 100%;
+}
+
+/* Zoom Control */
+.leaflet-bottom.leaflet-right .leaflet-control-zoom {
+  background-color: #ffff; /* Cambiar el fondo del ZoomControl */
+  color: #000; /* Cambiar el color del texto del ZoomControl */
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37); /*border: 2px solid #000;  Cambiar el borde del ZoomControl */
+  border: 2px solid #fff;
+  border-radius: 5px; /* Añadir bordes redondeados */
+  padding: 5px 10px; /* Ajustar el espacio interno */
+}
+
+/* Zoom Control */
+.leaflet-top.leaflet-right .leaflet-control-zoom {
+  background-color: #ffff; /* Cambiar el fondo del ZoomControl */
+  color: #000; /* Cambiar el color del texto del ZoomControl */
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37); /*border: 2px solid #000;  Cambiar el borde del ZoomControl */
+  border: 2px solid #fff;
+  border-radius: 5px; /* Añadir bordes redondeados */
+  padding: 4px 4px; /* Ajustar el espacio interno */
+}
+
+.mapaDeServicios {
+  width: 100%;
+  position: relative; /* Agrega esta línea para permitir el posicionamiento absoluto */
+}
+
+.windrose-container {
+  position: absolute;
+  bottom: 50px;
+  right: 15px;
+  z-index: 1000; /* Asegura que el rosa de los vientos esté en capa superior */
+}
+
+.windrose-control img {
+  max-width: 40px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+/* Estilos para el contenedor de la leyenda en la parte inferior izquierda */
+.leyenda-container-ciudad {
+  background-color: white;
+  border: 2px solid #9b9b9b;
+  border-radius: 5px; /* Añadir bordes redondeados */
+  padding: 10px 10px; /* Ajustar el espacio interno */
+  display: flex;
+}
+
+/* Estilos para cada elemento de la leyenda */
+.leyenda-item-ciudad {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex-direction: column-reverse;
+  width: 20px;
+  align-items: center;
+}
+
+/* Estilos para el color "Alto" */
+.color.alto-ciudad {
+  background-color: #005cfa; /* Color rojo para "Alto" */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Estilos para el color "Alto" */
+.color.casi-alto-ciudad {
+  background-color: #95b8f6; /* Color rojo para "Alto" */
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos para el color "Medio-Alto" */
+.color.medio-alto-ciudad {
+  background-color: #add5fa; /* Color naranja para "Medio-Alto" */
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos para el color "Medio" */
+.color.medio-ciudad {
+  background-color: #f9d99a; /* Color amarillo para "Medio" */
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos para el color "Medio-Bajo" */
+.color.medio-bajo-ciudad {
+  background-color: #f9a59a; /* Color verde para "Medio-Bajo" */
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos para el color "Bajo" */
+.color.bajo-ciudad {
+  background-color: #fa5f49; /* Color azul para "Bajo" */
+  width: 20px;
+  height: 20px;
+}

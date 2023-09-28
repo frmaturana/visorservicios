@@ -1,0 +1,28 @@
+.info {
+    background: white;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.info-container {
+    padding: 10px;
+}
+
+.filtro-servicios{
+    display:flex;
+}
+
+@media screen and (max-width: 1200px) {
+    .info-container {
+        padding-left: 100px;
+    }
+  }
+
+
+.container-info{
+    z-index: 2;
+
+}
+

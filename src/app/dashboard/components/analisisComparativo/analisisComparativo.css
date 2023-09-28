@@ -1,0 +1,256 @@
+.analisisComparativo {
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.analisis-boxs {
+  border-radius: 2px;
+  border: 2px solid #566464;
+}
+
+.mapaDeServicios {
+  height: 100%;
+  width: 100%;
+}
+
+/* Zoom Control */
+.leaflet-bottom.leaflet-right .leaflet-control-zoom {
+  background-color: #ffff; /* Cambiar el fondo del ZoomControl */
+  color: #000; /* Cambiar el color del texto del ZoomControl */
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37); /*border: 2px solid #000;  Cambiar el borde del ZoomControl */
+  border: 2px solid #fff;
+  border-radius: 5px; /* Añadir bordes redondeados */
+  padding: 5px 10px; /* Ajustar el espacio interno */
+}
+
+/* Zoom Control */
+.leaflet-top.leaflet-right .leaflet-control-zoom {
+  background-color: #ffff; /* Cambiar el fondo del ZoomControl */
+  color: #000; /* Cambiar el color del texto del ZoomControl */
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37); /*border: 2px solid #000;  Cambiar el borde del ZoomControl */
+  border: 2px solid #fff;
+  border-radius: 5px; /* Añadir bordes redondeados */
+  padding: 4px 4px; /* Ajustar el espacio interno */
+}
+
+.mapaDeServicios {
+  width: 100%;
+  position: relative; /* Agrega esta línea para permitir el posicionamiento absoluto */
+}
+
+.windrose-container {
+  position: absolute;
+  bottom: 50px;
+  right: 15px;
+  z-index: 1000; /* Asegura que el rosa de los vientos esté en capa superior */
+}
+
+.windrose-control img {
+  max-width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+/* Estilos para el contenedor del Select */
+.select-container {
+  position: absolute; /* Ajusta la posición según tus necesidades */
+  top: 20px; /* Ajusta la distancia desde la parte superior */
+  left: 20px; /* Ajusta la distancia desde la izquierda */
+  z-index: 1000; /* Ajusta el índice z según sea necesario */
+  background-color: white;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37); /*border: 2px solid #000;  Cambiar el borde del ZoomControl */
+  border: 2px solid #fff;
+  border-radius: 5px; /* Añadir bordes redondeados */
+  padding: 5px 10px; /* Ajustar el espacio interno */
+}
+
+/* Estilos para el contenedor de la leyenda en la parte inferior izquierda */
+.leyenda-container {
+  position: absolute;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+  left: 20px; /* Ajusta la distancia desde la izquierda */
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37); /*border: 2px solid #000;  Cambiar el borde del ZoomControl */
+  border: 2px solid #fff;
+  border-radius: 5px; /* Añadir bordes redondeados */
+  padding: 5px 10px; /* Ajustar el espacio interno */
+}
+
+/* Estilos para cada elemento de la leyenda */
+.leyenda-item {
+  display: flex;
+  margin-right: 20px;
+}
+
+/* Estilos para el color "Alto" */
+.color.alto {
+  background-color: #005cfa; /* Color rojo para "Alto" */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Estilos para el color "Alto" */
+.color.casi-alto {
+  background-color: #95b8f6; /* Color rojo para "Alto" */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* Estilos para el color "Medio-Alto" */
+.color.medio-alto {
+  background-color: #add5fa; /* Color naranja para "Medio-Alto" */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* Estilos para el color "Medio" */
+.color.medio {
+  background-color: #f9d99a; /* Color amarillo para "Medio" */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* Estilos para el color "Medio-Bajo" */
+.color.medio-bajo {
+  background-color: #f9a59a; /* Color verde para "Medio-Bajo" */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Estilos para el color "Bajo" */
+.color.bajo {
+  background-color: #fa5f49; /* Color azul para "Bajo" */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.color-primario {
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #81acaa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: var(--White, #fff);
+  --bs-btn-border-radius: 0;
+  --bs-btn-active-bg: rgb(80, 104, 103);
+  border-style: none;
+  /* Body • Heavy */
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.32px;
+
+}
+
+.color-primario:hover{
+  background: #87c4c1;
+}
+
+.color-secundario {
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #634F4E;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  --bs-btn-border-radius: 0;
+  --bs-btn-active-bg: #473a3a;
+  /* Body • Heavy */
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.32px;
+}
+
+.color-secundario:hover{
+  background: #8d6866;
+}
+
+.color-terciario {
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #556363;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  --bs-btn-border-radius: 0;
+  --bs-btn-active-bg: #2f3636;
+  /* Body • Heavy */
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.32px;
+}
+
+.color-terciario:hover{
+  background: #728383;
+}
+
+@media (max-width: 992px) {
+  .fila-comparativo{
+    padding: 1rem !important;
+  }
+
+  .columna-comparativo{
+    margin: 0 !important;
+  }
+
+  .panle-comparativo-ancho-responsivo{
+    max-width: 100% !important;
+  }
+
+  .panel-comparativo{
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2rem !important;
+  }
+
+  .botones-panel{
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 1rem !important;
+  }
+}
+
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}

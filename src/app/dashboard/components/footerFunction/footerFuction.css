@@ -1,0 +1,19 @@
+.footerFunction{
+    background-color: #222629;
+    color: white;
+    position: inherit;
+    max-height: 374px;
+}
+
+h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.super-footer-position{
+    position: inherit;
+    bottom: 95px;
+    background-color: #222629;
+}

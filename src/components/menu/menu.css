@@ -1,0 +1,175 @@
+
+body {
+    background: conic-gradient(from 109.88deg at 37.92% 114.16%, #212427 0deg, #333333 142.32deg, #1e4270 360deg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.tablesOfIndicadors {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+
+    color: #000000;
+}
+
+.navbarVisuality {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37);
+    color: #000000;
+    height: 100%;
+    width: 80px;
+    transition: width 0.5s;
+}
+
+.navbarVisuality h5 {
+    opacity: 0;
+    width: 0px;
+    height: 24px;
+    transition: opacity 0.1s 0s, width 0.5s 0s;
+}
+
+
+.navbarVisuality .logo{
+    object-fit: cover;
+    position: relative;
+  width: 100%;
+    height: 50px;
+    transition: opacity 0.1s 0s, width 0.5s 0s;
+}
+
+.navbarVisuality .logo img{
+    position: absolute;
+    width: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    clip: rect(0 50px 50px 0px);
+    transition: clip 0.5s 0s, width 0.5s 0s;
+}
+
+.navbarVisuality-details{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37);
+    color: #000000;
+    height: 100%;
+    width:290px;
+    transition: width 0.5s;
+}
+
+.navbarVisuality-details h5 {
+    opacity:1;
+    width: 205px;
+    height: 24px;
+    transition:  width 0.5s 0s , opacity 0.5s 0.5s;
+}
+
+.navbarVisuality-details .logo{
+   
+    position: relative;
+  width: 100%;
+  height: 50px;
+    transition: opacity 0.1s 0s, width 0.5s 0s;
+}
+
+.navbarVisuality-details .logo img{
+    position: absolute;
+    width: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto !important;
+    clip: rect(0 200px 60px 0px);
+    transition: clip 0.5s 0s, width 0.5s 0s;
+    position: absolute;
+}
+
+
+/* width */
+.indicadors::-webkit-scrollbar {
+    width: 10px;
+    margin-left: 5px;
+}
+
+/* Track */
+.indicadors::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px; 
+}
+
+/* Handle */
+.indicadors::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px; 
+}
+
+/* Handle on hover */
+.indicadors::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.not-tablesOfIndicadors {
+    position: absolute;
+    width: 529px;
+    height: 739px;
+    left: calc(50% - 529px/2 - 289.5px);
+    top: calc(50% - 739px/2 - 91.5px);
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+
+    color: #000000;
+}
+
+.icons-navbar{
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+Button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-navbar p {
+    margin-bottom: 0;
+}
+
+.icons-navbar::hover{
+    color: #696969;
+}
+
+/* Agrega estos estilos al final de tu archivo CSS */
+.icons-navbar svg {
+    margin-left: 0px; /* Espacio entre el texto y la imagen */
+  }
+  
+.icons-navbar h5 {
+    margin: 0; /* Elimina el margen por defecto del h5 */
+  }
+
+.btn-dark {
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.btn-info{
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+}
