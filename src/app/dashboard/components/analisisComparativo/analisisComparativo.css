@@ -67,7 +67,7 @@
   position: absolute;
   bottom: 20px; /* Ajusta la distancia desde la parte inferior */
   left: 20px; /* Ajusta la distancia desde la izquierda */
-  z-index: 1000;
+  z-index: 3000;
   background-color: white;
   box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.37); /*border: 2px solid #000;  Cambiar el borde del ZoomControl */
   border: 2px solid #fff;

@@ -377,6 +377,7 @@ export default class AnalisisComparativo extends React.Component {
                     onSelect={this.handleSelectUrbanosMapa}
                     onRemove={this.handleNoSelectUrbanosMapa}
                     options={listaZonasUrbanas}
+                    placeholder={`${this.state.selectedUrbanosServicios.length} ciudades seleccionadas`}
                     displayValue="urbano"
                     groupBy="nombreRegion"
                     selectionLimit={10}
@@ -402,6 +403,7 @@ export default class AnalisisComparativo extends React.Component {
                       onRemove={this.handleComparativoDimensionesSelect}
                       options={this.state.nombreIndicadores}
                       displayValue="Indicador o variable"
+                      placeholder={`${this.state.selectedUrbanosServicios.length} servicios seleccionadas`}
                       groupBy="Dimensión"
                       selectionLimit={7}
                       showCheckbox
@@ -479,6 +481,7 @@ export default class AnalisisComparativo extends React.Component {
                         options={[...nombresRegiones, ...listaZonasUrbanas]}
                         displayValue="urbano"
                         groupBy="nombreRegion"
+                        placeholder={`${this.state.selectedUrbanosDimensiones.length} ciudades seleccionadas`}
                         showCheckbox
                         style={{
                           chips: {

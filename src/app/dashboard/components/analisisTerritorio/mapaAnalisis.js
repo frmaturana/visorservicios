@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useRef }  from "react";
 import {
   MapContainer,
   TileLayer,
@@ -18,6 +18,7 @@ import "./mapa.css";
 //import "./mapaDeServicios.css";
 //import geoJsonData from "../../datosDePrueba/Mancha_Urbana_2017.json";
 import geoJsonData from "../../../../datosDePrueba/Mancha_Urbana_2017.json";
+import html2canvas from "html2canvas";
 
 //-39.821148, -73.237661
 //const position = [-39.821148, -73.237661];
@@ -178,7 +179,7 @@ export default class MapaAnalisis extends React.Component {
   }
 
   crearCircleMarkers() {
-    var color = "grey";
+    var color = "#fa5f49";
 
     if (this.state.rangos) {
       if (this.state.valor > this.state.rangos[0]) {
@@ -232,6 +233,7 @@ export default class MapaAnalisis extends React.Component {
   }
 
   render() {
+
     return (
       <MapContainer
         center={this.state.coordenadas}

@@ -1,4 +1,4 @@
-import React from "react";
+import React , { Component } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -14,6 +14,9 @@ import "leaflet/dist/leaflet.css";
 import geoJsonData from "../../../../../public/data/Mancha_Urbana_2017.json";
 import { Form } from "react-bootstrap";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import html2canvas from "html2canvas";
+import domtoimage from 'dom-to-image';
+
 
 const position = [-38.99021947302409, -72.64751008365442];
 
@@ -120,6 +123,7 @@ function calcularCentroMultiPoligonos(geoJSON) {
 export default class MapaComparativo extends React.Component {
   constructor(props) {
     super(props);
+    this.mapRef = React.createRef();
     this.state = {
       ciudades: [],
       servicios: [],
@@ -210,6 +214,15 @@ export default class MapaComparativo extends React.Component {
     }
   }
 
+  //Descargar
+  handleDownloadMap = () => {
+    domtoimage.toPng(document.getElementById('mapa'))
+    .then(function (png) {
+        window.saveAs(png, 'mapa-servicios.png');
+    });
+  };
+
+
   // Función para crear los CircleMarkers para ciudades destacadas
   crearCircleMarkers() {
     return this.state.ciudades.map((ciudad, index) => {
@@ -235,7 +248,7 @@ export default class MapaComparativo extends React.Component {
           ciudadGeometry.properties.NOM_REGION
         );
 
-        var color = "grey";
+        var color = "#fa5f49";
 
         if (rango) {
           if (valorServicio > rango.bajo) {
@@ -286,6 +299,7 @@ export default class MapaComparativo extends React.Component {
         scrollWheelZoom={true}
         className="mapaDeServicios"
         zoomControl={false}
+        id={"mapa"}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -339,6 +353,7 @@ export default class MapaComparativo extends React.Component {
           </div>
         </div>
         <div className="select-container">
+        <button onClick={this.handleDownloadMap}>Descargar Mapa</button>
           <Form.Select
             aria-label="Default select"
             onChange={(e) => {
