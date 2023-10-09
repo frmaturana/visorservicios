@@ -123,7 +123,7 @@ export default class AnalisisTerritorio extends React.Component {
   cambiarValores = (subTipo) => {
     
     this.setState({ subTipo: subTipo }, () => {
-      if (this.state.tipo == "Previsión" && subTipo !== "" && this.state.ciudad[0]) {
+      if (this.state.tipo == "Provisión" && subTipo !== "" && this.state.ciudad[0]) {
         const ciudadEncontrada = this.buscarCiudad(
           this.state.ciudad[0],
           this.state.indiceProvisionCiudad,
@@ -330,8 +330,8 @@ export default class AnalisisTerritorio extends React.Component {
   };
 
   opcionesDeTipo = () => {
-    if (this.state.tipo == "Previsión") {
-      return <option value="Previsión">Previsión</option>;
+    if (this.state.tipo == "Provisión") {
+      return <option value="Provisión">Provisión</option>;
     }
     if (this.state.tipo == "Dimensión") {
       // Usamos un Set para almacenar dimensiones únicas
@@ -422,7 +422,7 @@ export default class AnalisisTerritorio extends React.Component {
                     aria-label="Default select"
                     onChange={(e) => {
                       this.setState({ tipo: e.target.value });
-                      if (e.target.value == "Previsión") {
+                      if (e.target.value == "Provisión") {
                         this.setState({ subTipo: e.target.value });
                         this.cambiarValores(e.target.value);
                       }
@@ -430,7 +430,7 @@ export default class AnalisisTerritorio extends React.Component {
                     value={this.state.tipo}
                   >
                     <option>Tipo</option>
-                    <option value="Previsión">Previsión</option>
+                    <option value="Provisión">Provisión</option>
                     <option value="Dimensión">Dimensión</option>
                     <option value="Servicio">Servicio</option>
                   </Form.Select>

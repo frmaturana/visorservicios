@@ -249,6 +249,7 @@ export default class MapaComparativo extends React.Component {
         );
 
         var color = "#fa5f49";
+        console.log(rango);
 
         if (rango) {
           if (valorServicio > rango.bajo) {
@@ -353,7 +354,6 @@ export default class MapaComparativo extends React.Component {
           </div>
         </div>
         <div className="select-container">
-        <button onClick={this.handleDownloadMap}>Descargar Mapa</button>
           <Form.Select
             aria-label="Default select"
             onChange={(e) => {

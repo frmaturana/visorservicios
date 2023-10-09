@@ -426,7 +426,7 @@ export default class AnalisisComparativo extends React.Component {
           <Row>
             <Col
               className="analisis-boxs m-3"
-              style={{ padding: "0px", minHeight: "358.294px" }}
+              style={{ padding: "0px", minHeight: "358.294px", zIndex: "1"}}
             >
               <MapaComparativo
                 ciudades={this.state.selectedUrbanosServicios}
