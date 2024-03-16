@@ -252,22 +252,22 @@ export default class MapaComparativo extends React.Component {
         console.log(rango);
 
         if (rango) {
-          if (valorServicio > rango.bajo) {
+          if (valorServicio >= rango.bajo) {
             color = "#fa5f49";
           }
-          if (valorServicio > rango.tbajo) {
+          if (valorServicio >= rango.tbajo) {
             color = "#f9a59a";
           }
-          if (valorServicio > rango.tmbajo) {
+          if (valorServicio >= rango.tmbajo) {
             color = "#f9d99a";
           }
-          if (valorServicio > rango.tmedio) {
+          if (valorServicio >= rango.tmedio) {
             color = "#add5fa";
           }
-          if (valorServicio > rango.tmalto) {
+          if (valorServicio >= rango.tmalto) {
             color = "#95b8f6";
           }
-          if (valorServicio > rango.talto) {
+          if (valorServicio >= rango.talto) {
             color = "#005cfa";
           }
         }
