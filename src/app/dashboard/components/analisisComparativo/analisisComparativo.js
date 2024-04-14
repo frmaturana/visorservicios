@@ -403,7 +403,7 @@ export default class AnalisisComparativo extends React.Component {
                       onRemove={this.handleComparativoDimensionesSelect}
                       options={this.state.nombreIndicadores}
                       displayValue="Indicador o variable"
-                      placeholder={`${this.state.selectedUrbanosServicios.length} servicios seleccionadas`}
+                      placeholder={`${this.state.comparativoDimensiones.length} servicios seleccionadas`}
                       groupBy="Dimensión"
                       selectionLimit={7}
                       showCheckbox

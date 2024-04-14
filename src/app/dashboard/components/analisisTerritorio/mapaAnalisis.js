@@ -185,16 +185,16 @@ export default class MapaAnalisis extends React.Component {
       if (this.state.valor >= this.state.rangos[0]) {
         color = "#fa5f49";
       }
-      if (this.state.valor >= this.state.rangos[1]) {
+      if (this.state.valor > this.state.rangos[1]) {
         color = "#f9a59a";
       }
-      if (this.state.valor >= this.state.rangos[2]) {
+      if (this.state.valor > this.state.rangos[2]) {
         color = "#f9d99a";
       }
-      if (this.state.valor >= this.state.rangos[3]) {
+      if (this.state.valor > this.state.rangos[3]) {
         color = "#add5fa";
       }
-      if (this.state.valor >= this.state.rangos[4]) {
+      if (this.state.valor > this.state.rangos[4]) {
         color = "#95b8f6";
       }
       if (this.state.valor >= this.state.rangos[5]) {

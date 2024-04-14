@@ -172,16 +172,16 @@ export default class GradicoComparativoCiudadesDimensiones extends React.Compone
           if (valor >= rangoRegion["Bajo"]) {
             rango = 1;
           }
-          if (valor >= rangoRegion["Termina_rang1_Empie_rang2"]) {
+          if (valor > rangoRegion["Termina_rang1_Empie_rang2"]) {
             rango = 3;
           }
-          if (valor >= rangoRegion["Termina_rang2_Empie_rang3"]) {
+          if (valor > rangoRegion["Termina_rang2_Empie_rang3"]) {
             rango = 5;
           }
-          if (valor >= rangoRegion["Termina_rang3_Empie_rang4"]) {
+          if (valor > rangoRegion["Termina_rang3_Empie_rang4"]) {
             rango = 7;
           }
-          if (valor >= rangoRegion["Termina_rang4_Empie_rang5"]) {
+          if (valor > rangoRegion["Termina_rang4_Empie_rang5"]) {
             rango = 9;
           }
           if (valor >= rangoRegion["Alto"]) {
